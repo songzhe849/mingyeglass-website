@@ -1,5 +1,5 @@
 /* ============================================
-   Mingye Glass â€?Redesigned Premium Style
+   Mingye Glass ï¿½?Redesigned Premium Style
    ============================================ */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap');
 
@@ -187,7 +187,7 @@ img{max-width:100%;height:auto;display:block}
 /* â”€â”€â”€ Process â”€â”€â”€ */
 .process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
 .process-step{text-align:center;position:relative}
-.process-step:not(:last-child)::after{content:'â†?;position:absolute;top:28px;right:-18px;color:var(--border);font-size:1.3rem}
+.process-step:not(:last-child)::after{content:'ï¿½?;position:absolute;top:28px;right:-18px;color:var(--border);font-size:1.3rem}
 .step-num{width:56px;height:56px;margin:0 auto 20px;background:linear-gradient(135deg,var(--primary),var(--primary-light));color:var(--white);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;font-weight:700}
 .process-step h4{font-size:1rem;margin-bottom:6px}
 .process-step p{font-size:.85rem;color:var(--text-light);margin-bottom:0}
@@ -265,4 +265,4 @@ img{max-width:100%;height:auto;display:block}
 
 .cat-card-img,.product-card-img,.hero-img-placeholder,.about-img-placeholder{overflow:hidden}
 .cat-card-img img,.product-card-img img{transition:transform .5s ease}
-.cat-card-img img:hover,.product-card-img img:hover{transform:scale(1.08)}/* ©¤©¤©¤ Showcase Grid ©¤©¤©¤ */
+.cat-card-img img:hover,.product-card-img img:hover{transform:scale(1.08)}/* â€”â€”â€” Showcase Grid â€”â€”â€” */
