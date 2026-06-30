@@ -266,3 +266,119 @@ img{max-width:100%;height:auto;display:block}
 .cat-card-img,.product-card-img,.hero-img-placeholder,.about-img-placeholder{overflow:hidden}
 .cat-card-img img,.product-card-img img{transition:transform .5s ease}
 .cat-card-img img:hover,.product-card-img img:hover{transform:scale(1.08)}/* ——— Showcase Grid ——— */
+
+/* === DESIGN IMPROVEMENTS === */
+
+/* Card hover effects */
+.product-card, .feature-card, .cat-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.product-card:hover, .feature-card:hover, .cat-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+}
+
+/* Enhanced button hover */
+.btn-primary:hover {
+  box-shadow: 0 6px 20px rgba(74,108,247,0.35);
+}
+.btn-accent:hover {
+  box-shadow: 0 6px 20px rgba(37,211,102,0.25);
+}
+
+/* Hero section improvements */
+.hero {
+  padding: 80px 0 60px;
+}
+.hero-title {
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+/* Feature icons - replace emoji styling */
+.feature-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #4a6cf7 0%, #6c8cff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+  color: #fff;
+}
+.feature-icon svg {
+  width: 28px;
+  height: 28px;
+  stroke: #fff;
+}
+
+/* Stats section */
+.hero-stats {
+  display: flex;
+  gap: 32px;
+  margin-top: 36px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+/* Product card image area */
+.product-card-img {
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  height: 220px;
+  background: linear-gradient(135deg, #eef1f8 0%, #e2e6f2 100%);
+}
+.product-card-body {
+  padding: 20px;
+}
+
+/* CTA section enhancement */
+.cta-banner {
+  background: linear-gradient(135deg, #1a1a2e 0%, #2d3561 100%);
+  border-radius: 16px;
+  padding: 56px 40px;
+  text-align: center;
+}
+.cta-banner h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+.cta-banner p {
+  color: rgba(255,255,255,0.7);
+  max-width: 600px;
+  margin: 0 auto 28px;
+}
+
+/* Footer refinement */
+.footer {
+  padding: 56px 0 28px;
+  border-top: 1px solid #e8ecf2;
+}
+
+/* About image placeholder */
+.about-image-placeholder, .about-img-placeholder {
+  border-radius: 14px;
+  overflow: hidden;
+  min-height: 360px;
+}
+
+/* Breadcrumb styling */
+.breadcrumb a {
+  color: #4a6cf7;
+  opacity: 0.8;
+}
+.breadcrumb a:hover {
+  opacity: 1;
+}
+
+/* Glass icon cards */
+.glass-icon {
+  font-size: 3rem;
+  display: block;
+  text-align: center;
+  padding: 48px 0;
+  background: linear-gradient(135deg, #f0f4ff 0%, #e8ecf8 100%);
+  border-radius: 12px 12px 0 0;
+}
