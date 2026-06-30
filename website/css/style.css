@@ -122,7 +122,7 @@ img{max-width:100%;height:auto;display:block}
 
 /* ─── Features ─── */
 .features{background:var(--bg-warm)}
-.features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.features-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
 .feature-card{
   background:var(--white);border-radius:var(--radius-lg);padding:40px 32px;
   border:1px solid var(--border-light);transition:all var(--transition);
