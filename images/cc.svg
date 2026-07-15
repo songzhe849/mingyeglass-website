@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+    <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#2D6B3F"/><stop offset="100%" style="stop-color:#8CBA8F"/></linearGradient></defs>
+    <rect width="400" height="300" fill="url(#g)"/>
+    <rect x="130" y="90" rx="10" ry="10" width="140" height="120" fill="none" stroke="#fff" stroke-width="4" opacity="0.6"/>
+    <rect x="150" y="110" rx="5" ry="5" width="100" height="50" fill="rgba(255,255,255,0.15)"/>
+    <text x="200" y="180" font-family="Arial" font-size="16" fill="#fff" text-anchor="middle" opacity="0.8">烘焙与厨房玻璃</text>
+    <text x="200" y="230" font-family="Arial" font-size="11" fill="#fff" text-anchor="middle" opacity="0.4">Bakeware &amp; Kitchen Glass</text>
+  </svg>
