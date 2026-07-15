@@ -1,7 +1,5 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
-    { "source": "/cn", "destination": "/cn/index.html", "permanent": true }
-  ]
+  "redirects": []
 }
